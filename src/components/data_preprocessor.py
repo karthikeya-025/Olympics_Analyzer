@@ -7,9 +7,9 @@ from src.logger import logging
 from dataclasses import dataclass
 
 ath_df = pd.read_csv(
-    r"data\athlete_events.csv"
+    "data/athlete_events.csv"
 )
-region_df = pd.read_csv(r"data\noc_regions.csv")
+region_df = pd.read_csv("data/noc_regions.csv")
 
 
 @dataclass
