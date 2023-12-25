@@ -7,7 +7,7 @@ from src.logger import logging
 from dataclasses import dataclass
 
 ath_df = pd.read_csv(
-    r"C:\Users\Lenovo\Desktop\webapps\Olympics Da\data\athlete_events.csv"
+    r"data\athlete_events.csv"
 )
 region_df = pd.read_csv(r"data\noc_regions.csv")
 
